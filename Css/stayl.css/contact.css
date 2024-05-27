@@ -1,9 +1,10 @@
  body {
-        margin: auto;
+        margin:0 auto;
         width: 80%;
         padding: 0;
         box-sizing: border-box;
         font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
       
       }
       header {
@@ -37,7 +38,7 @@
         color: #424242;
       }
       .nav-item:hover {
-        background-color: rgb(174, 165, 228);
+        background-color: #e7ba77;
       }
 
       button {
