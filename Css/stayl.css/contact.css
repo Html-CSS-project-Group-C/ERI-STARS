@@ -1,0 +1,175 @@
+ body {
+        margin:0 auto;
+        width: 80%;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+      
+      }
+      header {
+        background-color: #f7f7f7;
+        height: 7rem;
+        display: flex;
+        justify-content: space-around;
+        overflow: hidden;
+
+        align-items: center;
+      }
+      .logo img {
+        height: 18rem;
+        position: relative;
+        right: 3rem;
+      }
+
+      .nav {
+        display: flex;
+        gap: 4rem;
+        align-items: center;
+      }
+
+      .nav {
+        position: relative;
+        right: 6rem;
+      }
+
+      .nav-item {
+        list-style-type: none;
+        color: #424242;
+      }
+      .nav-item:hover {
+        background-color: #e7ba77;
+      }
+
+      button {
+        margin-right: 4rem;
+        padding: 0.5rem 2rem;
+        border-radius: 2rem;
+      }
+     
+      img {
+        width: 100%;
+        height: auto;
+      }
+      h4 {
+        text-align: center;
+      }
+      p{
+        text-align: justify;
+      }
+
+      .contact-card {
+        display: inline-block;
+        margin-top: 2rem;
+      width: 35%;
+        height: 30rem;
+        background: rgba(196, 206, 218, 1);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .contact-item {
+        margin: 2rem;
+       
+      } 
+      .con-heading {
+        font-size: x-large;
+        margin: 2rem;
+      }
+      .icon-item {
+        margin-right: 1.5rem;
+      }
+      .push-right{
+        margin-left: 3rem;
+      }
+      .container {
+        display:flex;
+        height: 32rem;
+      
+      }
+      
+      .card {
+        height: 30rem;
+        font-size: smaller;
+        margin: 2rem;
+        display: grid;
+         grid-template-columns: repeat(2, 330px);
+        grid-template-rows: 25px 25px 25px 60px;  
+       padding: 2rem;
+        gap: 3rem;
+      }
+      input[type="text"] {
+       
+        display: inline-block;  
+        border: none;
+        border-bottom: 1px solid #424242;
+       width: 100%;
+       padding: 0.5rem;
+       outline: none;
+      } 
+      textarea{
+        resize: none;
+        height: 4rem;
+        width: 220%;
+        border: none;
+        border-bottom: 1px solid #424242;
+       
+        
+      }
+      .button-2{
+        margin-top: 5rem;
+        margin-left: 150px;
+            width: 200px; 
+            height: 50px; 
+            background-color: rgba(196, 206, 218, 1);
+            border-radius: 0%;
+           
+            border: none; 
+            
+            font-size: 20px; 
+      
+     grid-column: 2 / 2;
+     grid-row: 4 / 4;
+      }
+      
+     
+      
+     
+
+
+
+
+
+
+
+
+
+
+footer{
+  margin-top: 6rem;
+        background-color: #c4ceda;
+        height: 14.5rem; 
+        color: rgba(66, 66, 66, 1);
+      }
+      .footer-logo img{
+         display: flex;
+        height: 12rem;
+        margin-left: 7rem;
+      }
+      .footer-conttaner{ 
+        height: 11rem;
+        display: flex;
+        gap: 10rem;
+        border-bottom: solid 1px black;
+      }
+      .icons-conttaner{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 8rem;
+        margin-right: 8rem;
+      }
+       .icon{
+        display: flex;
+        gap: 1rem;
+        padding: 0.5rem;
+        
+      }
